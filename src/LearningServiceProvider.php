@@ -2,9 +2,9 @@
 
 namespace MrHarb\Learning;
 
+use MrHarb\Learning\Commands\LearningCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use MrHarb\Learning\Commands\LearningCommand;
 
 class LearningServiceProvider extends PackageServiceProvider
 {
